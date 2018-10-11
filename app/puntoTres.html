@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Importar fuente de icono de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+    <!--Deja que el navegador sepa que el sitio web está optimizado para dispositivos móviles-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <form>
+        <!--Inicio del contenido de la pagina-->
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <a href="../index.html">Inicio</a>
+                    <h4>Calulo tabla de valores</h4>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="txtValorInicial" type="text" class="validate" style="text-align: right;">
+                            <label for="txtValorInicial">Ingrese un valor inicial</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="txtValorFinal" type="text" class="validate" style="text-align: right;">
+                            <label for="txtValorFinal">Ingrese un valor final</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="divResultado">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12" style="text-align: right;">
+                            <a id="btnCalcularValores" class="waves-effect waves-light btn-large">Calcular valores</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin del contenido de la pagina-->
+    </form>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!--JavaScript al final del cuerpo para una carga optimizada-->
+<script type="text/javascript" src="../js/materialize.min.js"></script>
+<script type="text/javascript" src="../js/puntoTres.js"></script>
+
+</html>
