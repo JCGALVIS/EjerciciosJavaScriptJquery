@@ -23,5 +23,5 @@ Y con un resultado del salario mensual
 ## Punto dos ##
 En este punto se debe ingresar un valor y con el boton tab se habilitara el boton aceptar, para poder calcular el IVA del producto.
 
-## Punto tre ##
+## Punto tres ##
 En este punto veremos el calculo y construcción de unos valores en una tabla dinamica, que mediante el ingreso de dos datos uno inicial y uno final.
