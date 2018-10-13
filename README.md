@@ -5,6 +5,8 @@ Ejecicios de uso de jQuery
 
 - [Introducción](#introducción)
 - [Punto uno](#punto-uno)
+- [Punto dos](#punto-dos)
+- [Punto tres](#punto-tres)
 
 ## Introducción ##
 
