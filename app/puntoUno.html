@@ -8,6 +8,7 @@
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
     <!--Deja que el navegador sepa que el sitio web está optimizado para dispositivos móviles-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="Utf-8" />
 </head>
 
 <body>
@@ -18,6 +19,20 @@
                 <div class="col s12">
                     <a href="../index.html">Inicio</a>
                     <h4>Caluladora de salario</h4>
+                    <div class="row">
+                        <div class="input-field col s4">
+                            <input id="txtHorasTrabajadas" type="text" style="text-align: right;">
+                            <label for="txtHorasTrabajadas">Horas trabajadas</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input id="txtValorHoras" type="text" style="text-align: right;">
+                            <label for="txtValorHoras">Valor horas</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input id="txtDiasTrabajados" type="text" style="text-align: right;">
+                            <label for="txtDiasTrabajados">Días trabajados</label>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="input-field col s4">
                             <input id="txtSalario" type="text" style="text-align: right;">
@@ -34,7 +49,8 @@
                     </div>
                     <div class="row">
                         <div class="input-field col s12" style="text-align: right;">
-                            <a id="btnCalcularSalario" class="waves-effect waves-light btn-large" onclick="CalcularSalario();">Calcular salario</a>
+                            <a id="btnCalcularSalario" class="waves-effect waves-light btn-large" onclick="CalcularSalario();">Calcular
+                                salario</a>
                         </div>
                     </div>
                 </div>
